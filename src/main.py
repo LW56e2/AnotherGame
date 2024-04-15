@@ -48,3 +48,9 @@ Future to-do list:
 
 """
 import pygame
+
+# Initialize pygame and loop
+pygame.init()
+game = Game()
+game.run()
+
